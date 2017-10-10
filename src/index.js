@@ -34,6 +34,26 @@ class Layout extends React.Component{
         <Grid>
           <Row is="center">
             <Cell is="desktop-12">
+              <p style={Styles.fifty}>
+                image place holder.
+              </p>
+            </Cell>
+          </Row>
+        </Grid>
+
+        <Grid>
+          <Row is="center">
+            <Cell is="desktop-12">
+              <p style={Styles.yellow}>
+                hershin burgen dolphin kings sat beside the bay of the Elk gods, they rejoiced in the good nature
+              </p>
+            </Cell>
+          </Row>
+        </Grid>
+
+        <Grid>
+          <Row is="center">
+            <Cell is="desktop-12">
               <p style={Styles.green}>
                  I work with Full Stack JavaScript and im working on using React!
               </p>

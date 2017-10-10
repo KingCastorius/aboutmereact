@@ -14,6 +14,10 @@ const Styles = {
 
 	green: {
 		color: 'green'
+	},
+
+	yellow: {
+		color: 'yellow'
 	}
 }
 
