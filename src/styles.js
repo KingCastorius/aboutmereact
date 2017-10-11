@@ -16,6 +16,10 @@ const Styles = {
 		color: 'green'
 	},
 
+	Italics: {
+		fontStyle: 'italics'
+	}
+
 	yellow: {
 		color: 'yellow'
 	}
