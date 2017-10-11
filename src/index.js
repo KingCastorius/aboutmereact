@@ -52,7 +52,7 @@ class Layout extends React.Component{
         <Grid>
           <Row is="center">
             <Cell is="desktop-12 tablet-8 mobile-4">
-              <div style={Styles.pageHeader}> 
+              <div style={Styles.pageFooter}> 
                 <div>
                   <a href="https://github.com/KingCastorius">
                     View My Projects

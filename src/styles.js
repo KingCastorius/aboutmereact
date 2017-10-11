@@ -26,12 +26,21 @@ const Styles = {
 
 	pageHeader: {
 		textAlign: 'center',
-		color: 'blue'
-	}
+		color: 'red',
+		fontFamily: 'arial',
+		fontSize: '60px'
+	},
 
 	arial: {
+		fontFamily: 'arial',
+		fontStyle: 'italic'
+	},
+
+	pageFooter: {
+		textAlign: 'center',
 		fontFamily: 'arial'
-	}
+    }
+
 }
 
 export default Styles;
