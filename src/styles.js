@@ -39,7 +39,9 @@ const Styles = {
 	pageFooter: {
 		textAlign: 'center',
 		fontFamily: 'arial'
-    }
+    },
+
+
 
 }
 
