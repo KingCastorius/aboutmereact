@@ -41,6 +41,10 @@ const Styles = {
 		fontFamily: 'arial'
     },
 
+    bgColor: {
+    backgroundColor: 'lightblue'
+	}
+
 
 
 }

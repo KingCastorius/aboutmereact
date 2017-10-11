@@ -11,7 +11,8 @@ class Layout extends React.Component{
   render() {
     return (
       <span>
-        {/*header*/}
+       <div style={Styles.bgColor}>
+         {/*header*/}
         <Grid>
           <Row is="center">
             <Cell is="desktop-12 tablet-8 mobile-4">
@@ -67,6 +68,8 @@ class Layout extends React.Component{
             </Cell>
           </Row>
         </Grid>
+
+       </div>
 
       </span>
     )
