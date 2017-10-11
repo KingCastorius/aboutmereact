@@ -28,6 +28,10 @@ const Styles = {
 		textAlign: 'center',
 		color: 'blue'
 	}
+
+	arial: {
+		fontFamily: 'arial'
+	}
 }
 
 export default Styles;

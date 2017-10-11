@@ -27,7 +27,7 @@ class Layout extends React.Component{
         <Grid>
           <Row is="center">
             <Cell is="desktop-4 tablet-3 mobile-4">
-              <p style={Styles.red}>
+              <p style={Styles.arial}>
                 Hello my name is Ryan Hale, and I am a Junior Developer.
                  My technology stack is full stack JavaScript. 
                  I like to sing and I also have been drumming for 17 years.  
