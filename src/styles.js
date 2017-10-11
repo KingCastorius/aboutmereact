@@ -18,10 +18,15 @@ const Styles = {
 
 	Italics: {
 		fontStyle: 'italics'
-	}
+	},
 
 	yellow: {
 		color: 'yellow'
+	},
+
+	pageHeader: {
+		textAlign: 'center',
+		color: 'blue'
 	}
 }
 

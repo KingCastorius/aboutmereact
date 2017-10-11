@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Grid, Row, Cell } from 'react-inline-grid';
 import Styles from './styles';
+const coverImg = require('./ryan.jpg')
+
 
 
 
@@ -9,57 +11,63 @@ class Layout extends React.Component{
   render() {
     return (
       <span>
+        {/*header*/}
         <Grid>
           <Row is="center">
-            <Cell is="desktop-12">
+            <Cell is="desktop-12 tablet-8 mobile-4">
               <div>
-                <h1 style={Styles.blue}>  
+                <h1 style={Styles.pageHeader}>  
                   About Mr. Hale.
                 </h1>
               </div>
             </Cell>
           </Row>
         </Grid>
-
+        {/*blerb about me*/}
         <Grid>
           <Row is="center">
-            <Cell is="desktop-12">
+            <Cell is="desktop-4 tablet-3 mobile-4">
               <p style={Styles.red}>
-                Hello my name is Ryan Hale, and I am a Junior Developer!.
+                Hello my name is Ryan Hale, and I am a Junior Developer.
+                 My technology stack is full stack JavaScript. 
+                 I like to sing and I also have been drumming for 17 years.  
+                 I have been working with technology since i was 12 years old, 
+                 so now being a developer is an exciting new adventure!
               </p>
+            </Cell>
+            <Cell is="desktop-8 tablet-5 mobile-4"></Cell>
+          </Row>
+        </Grid>
+        {/*image*/}
+        <Grid>
+          <Row is="center">
+            <Cell is="desktop-12 tablet-8 mobile-4">
+              <div style={Styles.pageHeader}>
+                <img src={coverImg}/>
+              </div>
+            </Cell>
+          </Row>
+        </Grid>
+        {/*link to projects*/}
+        <Grid>
+          <Row is="center">
+            <Cell is="desktop-12 tablet-8 mobile-4">
+              <div style={Styles.pageHeader}> 
+                <div>
+                  <a href="https://github.com/KingCastorius">
+                    View My Projects
+                  </a>
+                </div>
+                <div>
+                  <a href="https://www.twitter.com">
+                    Let us see what Ryan has been Tweeting.
+                  </a>
+               </div>
+              </div>
             </Cell>
           </Row>
         </Grid>
 
-        <Grid>
-          <Row is="center">
-            <Cell is="desktop-12">
-              <p style={Styles.fifty}>
-                image place holder.
-              </p>
-            </Cell>
-          </Row>
-        </Grid>
-
-        <Grid>
-          <Row is="center">
-            <Cell is="desktop-12">
-              <p style={Styles.yellow}>
-                hershin burgen dolphin kings sat beside the bay of the Elk gods, they rejoiced in the good nature
-              </p>
-            </Cell>
-          </Row>
-        </Grid>
-
-        <Grid>
-          <Row is="center">
-            <Cell is="desktop-12">
-              <p style={Styles.green}>
-                 I work with Full Stack JavaScript and im working on using React!
-              </p>
-            </Cell>
-          </Row>
-        </Grid>
       </span>
     )
   }
