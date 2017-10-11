@@ -60,7 +60,7 @@ class Layout extends React.Component{
                   </a>
                 </div>
                 <div>
-                  <a href="https://twitter.com/Castorian">
+                  <a href="https://twitter.com/KingCastorius">
                     Let us see what Ryan has been Tweeting.
                   </a>
                </div>
