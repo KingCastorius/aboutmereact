@@ -26,14 +26,15 @@ const Styles = {
 
 	pageHeader: {
 		textAlign: 'center',
-		color: 'red',
+		color: '#D2D4C8',
 		fontFamily: 'arial',
 		fontSize: '60px'
 	},
 
 	arial: {
 		fontFamily: 'arial',
-		fontStyle: 'italic'
+		fontStyle: 'italic',
+		textAlign: 'center'
 	},
 
 	pageFooter: {
@@ -42,7 +43,8 @@ const Styles = {
     },
 
     bgColor: {
-    backgroundColor: 'lightblue'
+    	backgroundColor: '#989572', 
+    	minHeight: '100vh'
 	}
 
 

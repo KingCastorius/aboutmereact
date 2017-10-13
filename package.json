@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
+    "react-fa": "^5.0.0",
     "react-fontawesome": "^1.6.1",
     "react-inline-grid": "^0.5.3",
     "react-scripts": "1.0.14"

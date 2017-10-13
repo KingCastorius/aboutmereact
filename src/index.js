@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Icon} from 'react-fa'
 import { Grid, Row, Cell } from 'react-inline-grid';
 import Styles from './styles';
 const coverImg = require('./ryan.jpg')
-const FontAwesome = require('react-fontawesome');
+
 
 
 
@@ -29,7 +30,8 @@ class Layout extends React.Component{
         {/*blerb about me*/}
         <Grid>
           <Row is="center">
-            <Cell is="desktop-4 tablet-3 mobile-4">
+            <Cell is="desktop-3"></Cell>
+            <Cell is="desktop-6 tablet-8 mobile-4">
               <p style={Styles.arial}>
                 Hello my name is Ryan Hale, and I am a Junior Developer.
                  My technology stack is full stack JavaScript. 
@@ -38,7 +40,7 @@ class Layout extends React.Component{
                  so now being a developer is an exciting new adventure!
               </p>
             </Cell>
-            <Cell is="desktop-8 tablet-5 mobile-4"></Cell>
+            <Cell is="desktop-3"></Cell>
           </Row>
         </Grid>
         {/*image*/}
@@ -56,7 +58,12 @@ class Layout extends React.Component{
           <Row is="center">
             <Cell is="desktop-12 tablet-8 mobile-4">
               <div style={Styles.pageFooter}> 
-                <FontAwesome name='rocket' />
+                <a href="https://github.com/KingCastorius">
+                  <Icon name='github' size='2x' className='icon' />
+                </a>
+                <a href="https://twitter.com/KingCastorius">
+                  <Icon name='twitter' size='2x' className='icon'/>
+                </a>
               </div>
             </Cell>
           </Row>
