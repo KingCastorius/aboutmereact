@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import { Grid, Row, Cell } from 'react-inline-grid';
 import Styles from './styles';
 const coverImg = require('./ryan.jpg')
+const FontAwesome = require('react-fontawesome');
+
 
 
 
@@ -54,16 +56,7 @@ class Layout extends React.Component{
           <Row is="center">
             <Cell is="desktop-12 tablet-8 mobile-4">
               <div style={Styles.pageFooter}> 
-                <div>
-                  <a href="https://github.com/KingCastorius">
-                    View My Projects
-                  </a>
-                </div>
-                <div>
-                  <a href="https://twitter.com/KingCastorius">
-                    Let us see what Ryan has been Tweeting.
-                  </a>
-               </div>
+                <FontAwesome name='rocket' />
               </div>
             </Cell>
           </Row>
